@@ -1,0 +1,30 @@
+/* Components */
+.special-btn {
+  &:focus {
+    box-shadow: 0;
+  }
+  background-color: $light-purple;
+  color: $white;
+  @include font-size(12px);
+  border-radius: 20px;
+  width: 200px;
+  max-width: 100%;
+  &:hover {
+    background-color: $purple;
+    color: $white;
+  }
+}
+.special-title {
+  color: $purple;
+}
+.special-title + p {
+  color: $purple;
+  @include font-size(13px);
+  font-weight: 400;
+  width: 650px;
+  max-width: 100%;
+  @include media-breakpoint-down(md) {
+    line-height: 1.8;
+  }
+}
+/* Components */
