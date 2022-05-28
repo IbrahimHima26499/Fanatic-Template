@@ -123,6 +123,37 @@ body {
   border-left: none;
 }
 
+.navbar .offcanvas .offcanvas-header .offcanvas-title .logo {
+  width: 30px;
+}
+
+.navbar .offcanvas .offcanvas-header .offcanvas-title .logo span {
+  height: 8px;
+  border-radius: 6px;
+}
+
+.navbar .offcanvas .offcanvas-header .offcanvas-title .logo span:first-child {
+  background-color: #f2b300;
+  width: 70%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.navbar .offcanvas .offcanvas-header .offcanvas-title .logo span:nth-child(2) {
+  background-color: #4cd5c5;
+  width: 30%;
+}
+
+.navbar .offcanvas .offcanvas-header .offcanvas-title .logo span:nth-child(3) {
+  background-color: #7620ff;
+  width: 70%;
+}
+
+.navbar .offcanvas .offcanvas-header .offcanvas-title .logo span:last-child {
+  background-color: #f40051;
+  width: 50%;
+}
+
 .navbar .offcanvas .offcanvas-header button.btn-close {
   opacity: 1;
 }

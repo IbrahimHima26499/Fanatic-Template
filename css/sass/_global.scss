@@ -66,6 +66,32 @@ body {
       border-left: none;
     }
     .offcanvas-header {
+      .offcanvas-title {
+        .logo {
+          width: 30px;
+          span {
+            height: 8px;
+            border-radius: 6px;
+            &:first-child {
+              background-color: $yellow;
+              width: 70%;
+              align-self: flex-end;
+            }
+            &:nth-child(2) {
+              background-color: $light-blue;
+              width: 30%;
+            }
+            &:nth-child(3) {
+              background-color: $light-purple;
+              width: 70%;
+            }
+            &:last-child {
+              background-color: $red;
+              width: 50%;
+            }
+          }
+        }
+      }
       button.btn-close {
         opacity: 1;
         &:hover {
